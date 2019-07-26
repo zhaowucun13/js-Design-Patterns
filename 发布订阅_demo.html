@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		*{margin: 0px; padding: 0px;}
+		.container {  margin: 30px auto;  width: 700px;  border: 1px solid #aaa; border-radius: 5px; padding-bottom: 20px;}
+		.promulgatorWrap{  padding: 10px;  border-bottom: 1px solid #aaa; text-align: center; }
+		.pro_ta{  width: 300px;  height: 50px;  vertical-align: middle;  resize:none;  text-align: left;border-radius: 5px; padding: 8px; border: 1px solid #aaa;box-sizing: border-box;outline:none;}
+		.pro_btn{ border: 1px solid #aaa;font-size: 12px;padding: 5px 10px;color: #333;border-radius: 5px; cursor: pointer; user-select:none; }
+		.subscriberWrap{ width: 90%;margin: 0 auto;border: 1px solid #aaa;border-radius: 5px; margin-top: 20px;}
+		.subscriberWrapT{ border-bottom: 1px solid #aaa; padding: 10px;}
+		.subscriberWrapT_Name{ display: inline-block;padding-right: 10px;color: #045689; }
+		.subscriberWrapT_Btn{ border: 1px solid #aaa; padding: 5px 10px; border-radius: 5px; display: inline-block;font-size: 12px;cursor: pointer; color: #666;}
+		.subscriberWrapB{ padding: 10px; height: auto;}
+		.subscriberWrapB_L{ width:40px;float:left;height: 100%; height: 20px;}
+		.subscriberWrapB_R{ overflow: hidden; height: 20px;color: #555}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<!--发布者-->
+		<div class="promulgatorWrap">
+			<textarea class="pro_ta"  placeholder="输入动态"></textarea>
+			<span class="pro_btn tlf_btn" >赵小风发布动态</span>
+		</div>
+		<!--订阅者1-->
+		<div class="subscriber01 subscriberWrap">
+			<div class="subscriberWrapT">
+				<span class="subscriberWrapT_Name">订阅者01</span>
+				<span class="subscriberWrapT_Btn">未订阅赵小风</span>
+			</div>
+			<div class="subscriberWrapBWrap">
+				<div class="subscriberWrapB">
+					<div class="subscriberWrapB_L">
+						<svg t="1517452322478" class="icon" style="" viewBox="0 0 1024 1024" version="1.1"  p-id="826"  width="20" height="20">
+							<path d="M512 0C229.003636 0 0 229.003636 0 512s229.003636 512 512 512 512-229.003636 512-512S794.996364 0 512 0z m261.585455 465.454545L637.672727 582.749091l4.654546 18.618182c-95.883636 0.930909-159.185455-8.378182-159.185455-8.378182l158.254546-112.64c-128.465455-26.996364-302.545455 4.654545-288.581819 5.585454C549.236364 492.450909 554.821818 502.690909 554.821818 502.690909L397.498182 615.330909c216.901818 13.963636 277.410909-14.894545 277.410909-14.894545s-14.894545 12.101818-28.858182 18.618181l32.581818 137.774546c0.930909 2.792727-0.930909 6.516364-2.792727 8.378182-1.861818 0.930909-2.792727 1.861818-4.654545 1.861818s-2.792727 0-4.654546-0.930909L512 673.978182l-154.530909 92.16c-2.792727 1.861818-6.516364 1.861818-9.309091 0-2.792727-1.861818-3.723636-5.585455-2.792727-8.378182l40.96-175.010909L249.483636 465.454545c-2.792727-1.861818-3.723636-5.585455-2.792727-8.378181s3.723636-5.585455 7.447273-5.585455l179.665454-14.894545L504.552727 269.963636c0.930909-2.792727 4.654545-4.654545 7.447273-4.654545 3.723636 0 6.516364 1.861818 7.447273 4.654545l69.818182 164.770909 179.665454 14.894546c3.723636 0 6.516364 2.792727 7.447273 5.585454s0 8.378182-2.792727 10.24z" fill="#F5BC32" p-id="827"></path>
+						</svg>
+					</div>
+					<div class="subscriberWrapB_R">
+						暂时没有动态
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--订阅者2-->
+		<div class="subscriber02 subscriberWrap">
+			<div class="subscriberWrapT">
+				<span class="subscriberWrapT_Name">订阅者02</span>
+				<span class="subscriberWrapT_Btn">未订阅赵小风</span>
+			</div>
+			<div class="subscriberWrapBWrap">
+				<div class="subscriberWrapB">
+					<div class="subscriberWrapB_L">
+						<svg t="1517452322478" class="icon" style="" viewBox="0 0 1024 1024" version="1.1"  p-id="826"  width="20" height="20">
+							<path d="M512 0C229.003636 0 0 229.003636 0 512s229.003636 512 512 512 512-229.003636 512-512S794.996364 0 512 0z m261.585455 465.454545L637.672727 582.749091l4.654546 18.618182c-95.883636 0.930909-159.185455-8.378182-159.185455-8.378182l158.254546-112.64c-128.465455-26.996364-302.545455 4.654545-288.581819 5.585454C549.236364 492.450909 554.821818 502.690909 554.821818 502.690909L397.498182 615.330909c216.901818 13.963636 277.410909-14.894545 277.410909-14.894545s-14.894545 12.101818-28.858182 18.618181l32.581818 137.774546c0.930909 2.792727-0.930909 6.516364-2.792727 8.378182-1.861818 0.930909-2.792727 1.861818-4.654545 1.861818s-2.792727 0-4.654546-0.930909L512 673.978182l-154.530909 92.16c-2.792727 1.861818-6.516364 1.861818-9.309091 0-2.792727-1.861818-3.723636-5.585455-2.792727-8.378182l40.96-175.010909L249.483636 465.454545c-2.792727-1.861818-3.723636-5.585455-2.792727-8.378181s3.723636-5.585455 7.447273-5.585455l179.665454-14.894545L504.552727 269.963636c0.930909-2.792727 4.654545-4.654545 7.447273-4.654545 3.723636 0 6.516364 1.861818 7.447273 4.654545l69.818182 164.770909 179.665454 14.894546c3.723636 0 6.516364 2.792727 7.447273 5.585454s0 8.378182-2.792727 10.24z" fill="#F5BC32" p-id="827"></path>
+						</svg>
+					</div>
+					<div class="subscriberWrapB_R">
+						暂时没有动态
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	
+	<script type="text/javascript">
+		//发布者
+		var promulgatorObj = {
+			//事件容器
+			subEventList:[],
+			//添加订阅者事件
+			addSubFn:function(obj){
+				this.subEventList.push(obj);
+			},
+			//移除订阅者事件
+			removeSubFn:function(className){
+				var tempArr = [];
+				this.subEventList.forEach(function(v){
+					v.ctx.className!==className && tempArr.push(v);
+				})
+				this.subEventList = tempArr;
+			},
+			//发布事件
+			proFn:function(txt){
+				this.subEventList.forEach(function(v){
+					v.cb.call(v.ctx,txt);
+				})
+			},
+			//启动->激活
+			start:function(){
+				var self = this;
+				document.querySelector('.tlf_btn').onclick = function(){
+					var txt = document.querySelector('.pro_ta').value;
+					txt && self.proFn(txt);
+				}
+			}
+		}
+		promulgatorObj.start();//发布对象启动
+
+		//订阅者
+		var Subscriber = function(obj){
+			this.className = obj.className;
+			this.ownChange();//激活自身触发
+		};
+		Subscriber.prototype = {
+			constructor:Subscriber,
+			//自身发布能力
+			ownProPower : function(txt){
+				var ctx = document.querySelector('.'+this.className),
+					curTxt = ctx.querySelector('.subscriberWrapBWrap'),
+					editTxt = ctx.querySelector('.subscriberWrapB_R'),
+					newTxt,
+					self = this;
+				curTxt.innerHTML.indexOf('暂时没有动态') != -1
+					?
+				(editTxt.innerHTML = txt,self.txt = curTxt.innerHTML)
+					:
+				(
+					newTxt =curTxt.innerHTML,
+					curTxt.innerHTML = newTxt + self.txt.replace( /berWrapB\_R\"\>(\S*)\<\/div\>/.exec(self.txt)[1],txt)
+				)
+			},
+			//自身触发
+			ownChange : function(){
+				var self = this;
+				document.querySelector('.'+this.className).querySelector('.subscriberWrapT_Btn').onclick = function(){
+
+					this.innerHTML.indexOf('未') != -1
+						?
+					(
+						this.style.backgroundColor = '#045689',
+						this.style.color = '#fff',
+						promulgatorObj.addSubFn({ctx:self,cb:self.ownProPower}),
+						this.innerHTML = '已订阅赵小风'
+					)
+						:
+					(
+						this.style.backgroundColor = '#fff',
+						this.style.color = '#666',
+						promulgatorObj.removeSubFn(self.className),
+						this.innerHTML = '未订阅赵小风'
+					);
+				};
+			},
+		};
+
+		new Subscriber({ className:'subscriber01' });//订阅者01
+		new Subscriber({ className:'subscriber02' });//订阅者02
+
+	</script>
+</body>
+</html>
